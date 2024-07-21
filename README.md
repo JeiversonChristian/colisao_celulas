@@ -7,9 +7,9 @@ O programa acusa que elas se colidiram e mostra os valores das suas posições d
 
 ## Imagem explicativa
 
-![software_print](1.PNG)
-![software_print](2.PNG)
-![software_print](3.PNG)
+![software_print](1.png)
+![software_print](2.png)
+![software_print](3.png)
 
 ## Teste você mesmo no link:
 
