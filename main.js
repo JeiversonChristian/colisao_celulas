@@ -62,8 +62,11 @@ window.onload = function() {
     // --------------------------------------------------------------------------------
     function verificar_colisao(){
         if ((c1x + c1r) >= (c2x - c2r)) {
-            let mensagem = "c1x: "+String(c1x) +" | Borda de c1: "+String(c1x+c1r)+"\n"+"c2x: "+String(c2x) +" | Borda de c2: "+String(c2x-c2r)
-            window.alert(mensagem)
+            // iverte a direção quando colide
+            c1v = c1v * -1 
+            c2v = c2v * -1
+            //let mensagem = "c1x: "+String(c1x) +" | Borda de c1: "+String(c1x+c1r)+"\n"+"c2x: "+String(c2x) +" | Borda de c2: "+String(c2x-c2r)
+            //window.alert(mensagem)
         }
     }
     // --------------------------------------------------------------------------------
